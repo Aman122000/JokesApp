@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke App</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<style>
+
+body{
+    background-image: linear-gradient(rgb(243, 234, 234), rgb(148, 230, 148));
+    background-color: rgb(200, 241, 241);
+}
+
+#jokes{
+
+letter-spacing: 0.5px;
+word-spacing: 3px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(194, 166, 166);
+    color: rgb(55, 15, 231);
+}
+#btn{
+    margin: auto;
+    
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(236, 221, 221);
+}
+
+.jk{
+   
+    height: 20px;
+    width: fit-content;
+}
+.text-center {
+    text-align: center;
+  }
+
+.em{
+    text-align: center;
+    
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.container{
+    
+    height: 40px;
+}
+
+</style>
+
+
+<body>
+    <h1>Welcome To AmanJokes App</h1>
+    <div class="text-center">
+        <button id="btn">Click me!</button>
+    </div>
+   
+
+    <div class="em">
+        <p >&#128514;</p>
+    </div>
+
+    <div class="container">
+        
+        <ul id="jokes"></ul>
+        <br>
+    </div>
+
+        
+    
+
+    
+
+    <script src="app.js"></script>
+</body>
+
+</html>
